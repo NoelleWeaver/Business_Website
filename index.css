@@ -1,11 +1,26 @@
+
+html {
+    background-color: aliceblue;
+}
+
+body div {
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #333;
+}
+
+nav {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
 ul, li {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: white;
     padding: 10px 0;
 }
 
@@ -20,7 +35,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: beige;
     font-weight: bold;
     font-size: 16px;
 }
