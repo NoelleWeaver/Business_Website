@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Contact_Page.css">
-    <title>Contact</title>
+    <link rel="stylesheet" href="Contact_Page.css"> 
+    <title>Contact Us - Vintage Thread</title>
 </head>
 <body>
+    <header class="name">Vintage Thread</header>
+    <div class="divider"></div>
     <header>
         <nav>
             <ul>
@@ -16,6 +18,28 @@
             </ul>
         </nav>
     </header>
+    <header class="title">Contact Us</header>
+
     
+    <section class="contact-form">
+        <h2>Send us a message</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <div class="divider"></div>
+    
+    <footer class="bottom-box"></footer>
+
 </body>
 </html>

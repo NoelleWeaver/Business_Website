@@ -1,17 +1,10 @@
 
-ul, li {
-    padding: 0;
-    margin: 0;
-}
-
 html {
     background-color:rgb(78, 78, 78); 
 }
 
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 body div {
@@ -110,9 +103,6 @@ nav a:hover {
 .bottom-box {
     background-color: rgb(106, 106, 106);
     padding: 20px; 
-    text-align: center; 
-    position: fixed; 
-    width: 100%; 
-    bottom: 0; 
+    text-align: center;  
     color: #fff;
 }
