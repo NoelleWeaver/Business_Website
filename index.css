@@ -1,27 +1,47 @@
 
-html {
-    background-color: aliceblue;
-}
-
-body div {
-    margin-right: 200px;
-    margin-left: 200px;
-    background-color: #333;
-}
-
-nav {
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
 ul, li {
     padding: 0;
     margin: 0;
 }
 
+html {
+    background-color:rgb(78, 78, 78); 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body div {
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color:darkslategray; 
+}
+.title {
+    text-align: center;
+    font-size: 100px;
+    font-weight: xx-small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.divider {
+    height: 5px;
+    background-color: #fff; 
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
 header {
-    background-color: white;
+    background-color:rgb(106, 106, 106);
+    color: #fff;
     padding: 10px 0;
+}
+
+nav {
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 nav ul {
@@ -35,11 +55,64 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: beige;
+    color: #fff;
     font-weight: bold;
     font-size: 16px;
 }
 
+nav a::after {
+    content: '|'; 
+    margin-left: 10px; 
+    color: #fff; 
+}
+
+nav li:last-child a::after {
+    content: ''; 
+    margin-left: 0;
+}
+
 nav a:hover {
-    color: #3d3d3c;
+    color: black; 
+}
+
+.box {
+    background-color: rgb(106, 106, 106); 
+    padding: 20px;
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px; 
+    margin-left: 200px;
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.main {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.bottom-box {
+    background-color: rgb(106, 106, 106);
+    padding: 20px; 
+    text-align: center; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+    color: #fff;
 }
